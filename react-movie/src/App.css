@@ -61,11 +61,20 @@ li {
     margin: 15px 0 0 0;
 }
 .home_summary {
-    height: 130px;
+    height: 124px;
     font-size: 15px;
     color: #555;
     text-align: justify;
-    margin: 10px 0 0 0;
+    margin: 10px 0 15px 0;
+
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    word-break: keep-all;
+    
 }
 .home_genres {
     padding: 0;
